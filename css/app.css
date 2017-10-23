@@ -1,0 +1,86 @@
+
+a:link{color: white;}
+a:visited{color: white;}
+a:hover{color: #69A726;}
+a:active{color: gray; text-decoration: none;}
+
+body{
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: white;
+  background-color: #000000;
+}
+h1{
+  font-size: 4.5em;
+  font-family: 'Caveat', cursive;
+}
+h2,h3{
+  font-family: 'Cuprum', sans-serif;
+}
+h2{
+  font-size: 2.4em;
+}
+footer{
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: lightgray;
+  font-size: 1.2em;
+}
+p{
+    font-size: 1.3em;
+}
+
+@media screen and (max-width:799px){
+  header{
+    width: 450px;
+  }
+
+  li{
+    display: flex;
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+}
+@media screen and (min-width:800px){
+  #wrapper{
+    width: 1300px;
+    margin: 50px auto;
+    padding: 10px 20px 10px 20px;
+    background-color: #383838;
+  }
+  .t1{
+    text-align: center;
+    text-indent: inherit;
+    border: solid 1px white;
+    margin: 20px auto;
+    padding: 15px 15px 15px 15px;
+    background-color: #68731B;
+  }
+  .t2{
+    padding: 15px 15px 15px 15px;
+  }
+  .testimonial{
+    width: 100%;
+    margin: 10px auto;
+    padding: 10px auto;
+    border-radius: 20px 0px 20px 0px;
+  }
+  header{
+    width: 100%;
+    }
+  footer {
+    width: 100%;
+    background-color: #000000;
+    margin: 20px auto;
+    padding: 15px 15px 15px 15px;
+  }
+  li{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+  #mainnav{
+    width: 100%;
+    font-family: 'Cuprum', sans-serif;
+    font-size: 1.8em;
+    background-color: #A40501;
+    text-align: right;
+  }
